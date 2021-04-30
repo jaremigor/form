@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Пример формы обратной связи</title>
+
+	<link href="css/style.css" rel="stylesheet">
+
+    <!--Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/mask.js"></script>
+
+</head>
+<body>
+
+<div class="form_box">
+	<div class="form_box__left">
+		<img src="img/call.png">
+	</div>
+	<div class="form_box__right">
+		<div class="cross">
+			<span class="close"></span>
+		</div>
+		<div class="form_box__right__top">
+			<h1>Pozwól nam Ci pomóc!</h1>
+			<p>Wyślij zapytanie, a my bezpłatnie doradzimy przez<br>
+				telefon. Pod jaki numer mam do Ciebie zadzwonić?</p>
+		</div>
+		<div class="form_box__right__bottom">
+			<div class="form_box__right__bottom__left">
+				<form class="form">
+					<input type="text" name="mfbName" placeholder="Wprowadź swój telefon na imię:" required/>
+					<input type="text" name="mfbMail" placeholder="Wprowadź swój telefon Email:" required/>
+				</form>
+			</div>
+			<div class="form_box__right__bottom__right">
+				<form class="form">
+					<input type="text" name="mfbPhone" placeholder="Wprowadź swój telefon:" required/>
+					<input type="submit" value="Czekam na telefon"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="form_box2">
+		<div class="cross">
+			<span class="close"></span>
+		</div>
+			<p>Twoja aplikacja została wysłana!</p>
+	</div>
+</div>
+
+</body>
+</html>
