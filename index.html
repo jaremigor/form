@@ -27,28 +27,30 @@
 			<p>Wyślij zapytanie, a my bezpłatnie doradzimy przez<br>
 				telefon. Pod jaki numer mam do Ciebie zadzwonić?</p>
 		</div>
-		<div class="form_box__right__bottom">
+		<!--<div class="form_box__right__bottom">-->
+			<form class="form_box__right__bottom" name="form" action="contact.php" method="POST">
 			<div class="form_box__right__bottom__left">
-				<form class="form">
-					<input type="text" name="mfbName" placeholder="Wprowadź swój telefon na imię:" required/>
-					<input type="text" name="mfbMail" placeholder="Wprowadź swój telefon Email:" required/>
-				</form>
+				<div class="form">
+					<input type="text" name="mfbName" placeholder="Wprowadź swój telefon na imię:" required />
+					<input type="text" name="mfbMail" placeholder="Wprowadź swój telefon Email:" required />
+				</div>
 			</div>
 			<div class="form_box__right__bottom__right">
-				<form class="form">
-					<input type="text" name="mfbPhone" placeholder="Wprowadź swój telefon:" required/>
-					<input type="submit" value="Czekam na telefon"/>
-				</form>
+				<div class="form">
+					<input type="text" name="mfbPhone" placeholder="Wprowadź swój telefon:" required />
+					<input type="submit" value="Czekam na telefon" />
+				</div>
 			</div>
-		</div>
+		<!--</div>-->
+				</form>
 	</div>
 </div>
 
 <div class="form_box2">
-		<div class="cross">
-			<span class="close"></span>
-		</div>
-			<p>Twoja aplikacja została wysłana!</p>
+	<div class="cross">
+		<span class="close"></span>
+	</div>
+	<p>Twoja aplikacja została wysłana!</p>
 	</div>
 </div>
 
