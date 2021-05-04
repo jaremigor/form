@@ -21,7 +21,7 @@ else {
 	// тело письма
 	$body = 'Получено письмо с сайта ' . $site . ' \n\nИмя: ' . $txtname.'\nТелефон: ' . $txtphone.'\ne-mail: ' . $txtemail;
 	$send = mail($emailTo, $subject, $body, $headers);
-	if($send == 'true')
+	if($send === true)
 	{
 		echo 'Message sent';
 	}
